@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+/*app-styles*/
+
+.App {
+  max-width: 40vw;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+nav {
+  padding: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 2rem 0.5rem 0.5rem 0.5rem;
+}
+
+.movie-list {
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.movie-list ul {
+  list-style-type: none;
+}
+
+.movie-list li {
+  padding: 0.8rem;
+  margin: 0.8rem auto;
+  border-radius: 0.8rem;
+}
